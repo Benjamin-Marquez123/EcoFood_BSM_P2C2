@@ -1,0 +1,73 @@
+/*Estilo de la barra de navegación*/
+.navbar-brand{
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+    color: rgb(120, 235, 120);
+    text-decoration: underline;
+}
+
+.botonInicio{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+
+/*Estilo para el formulario*/
+#logo{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    height: 10%;
+    width: 10%;
+    border-radius: 25%;
+    max-width: 150px;
+}
+
+.formulario{
+    margin: auto;
+    width: 600px;
+}
+
+.input-group{
+    margin-bottom: 20px;
+}
+
+.form-control{
+    background-color: #D9D9D9;
+    padding: 13px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(120, 235, 120);
+    text-decoration: underline;
+}
+
+button{
+    width:35%;
+    padding: 8px;
+    margin-top: 20px;
+    border: none;
+    background-color: #FF0000;
+    opacity: 50%;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: opacity 0.3s ease;
+}
+
+button:hover{
+    opacity: 100%;
+}
+ 
