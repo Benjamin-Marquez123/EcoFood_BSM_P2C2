@@ -1,0 +1,81 @@
+body {
+    background-image: url('img/marco-vegetacion-verde-acuarela_53876-105303.avif'); 
+    background-size: cover;                
+    background-position: center;           
+    background-repeat: no-repeat;          
+    height: 100vh;                         
+    margin: 0;
+    display: flex;
+    justify-content: center; /* centrar horizontal */
+    align-items: center;
+    }
+
+.login-contenedor{
+    background-color: #E7E7D7;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    width: 350px;
+    height: 350px;
+}
+
+.login-contenedor h1{
+    text-align: center;
+    border-bottom: 1px solid #CEC7A0;
+    padding: 0 0 20px 0;
+}
+
+.input-group{
+    margin-bottom: 20px;
+    border-bottom: 2px solid #adadad;
+}
+
+.input-group label{
+    display: block;
+    font-size: 15px;
+    color: black;
+}
+
+.input-group input{
+    width: 90%;
+    padding: 5px;
+    margin-top: 5px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.recordar {
+    margin: -5px 0 20px 5px;
+    color: blue;
+    cursor: pointer;
+}
+
+.recordar:hover{
+    text-decoration: underline;
+}
+
+button{
+    width: 350px;
+    padding: 12px;
+    border: none;
+    background-color: #4E603A;
+    color: #E7E7D7;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+p{
+    text-align: center;
+    margin-top: 15px;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
