@@ -1,0 +1,58 @@
+body {
+    background-image: url('img/marco-vegetacion-verde-acuarela_53876-105303.avif'); 
+    background-size: cover;                
+    background-position: center;           
+    background-repeat: no-repeat;          
+    height: 100vh;                         
+    margin: 0;
+    display: flex;
+    justify-content: center; /* centrar horizontal */
+    align-items: center;
+    }
+
+.register-contenedor{
+    background-color: #E7E7D7;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    width: 450px;
+    height: 530px;
+}
+
+.register-contenedor h1{
+    text-align: center;
+    border-bottom: 1px solid #CEC7A0;
+    padding: 0 0 20px 0;
+}
+
+.input-group{
+    margin-bottom: 20px;
+    border-bottom: 2px solid #adadad;
+}
+
+.input-group label{
+    display: block;
+    font-size: 15px;
+    color: black;
+}
+
+.input-group input{
+    width: 90%;
+    padding: 5px;
+    margin-top: 5px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+button{
+    width: 450px;
+    margin-top: 15px;
+    padding: 12px;
+    border: none;
+    background-color: #4E603A;
+    color: #E7E7D7;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
