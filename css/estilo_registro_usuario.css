@@ -1,5 +1,5 @@
 body {
-    background-image: url('../assets/marco-vegetacion-verde-acuarela_53876-105303.avif'); 
+    background-image: url('img/marco-vegetacion-verde-acuarela_53876-105303.avif'); 
     background-size: cover;                
     background-position: center;           
     background-repeat: no-repeat;          
@@ -55,4 +55,39 @@ button{
     border-radius: 5px;
     cursor: pointer;
     font-size: 15px;
+}
+
+@media (max-width: 768px) {
+    .register-contenedor {
+        width: 400px; 
+        height: auto; 
+        padding: 20px;
+    }
+
+    button {
+        width: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-size: cover;
+        padding: 20px;
+    }
+
+    .register-contenedor {
+        width: 90%; 
+        max-width: 400px; 
+        height: auto;
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+    button {
+        width: 100%; 
+    }
+
+    .input-group input {
+        width: 100%;
+    }
 }
