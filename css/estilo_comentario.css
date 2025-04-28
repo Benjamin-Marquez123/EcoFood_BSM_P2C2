@@ -1,0 +1,82 @@
+/*Estilo de la barra de navegación*/
+.navbar-brand{
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+    color: rgb(120, 235, 120);
+    text-decoration: underline;
+}
+
+.botonInicio{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+
+.titulo{
+    background-color: #81f576; 
+    margin-top: 50px; 
+    width: 30%; 
+    padding: 0.1%; 
+    border-radius: 25px;
+    text-decoration: underline; 
+    color: rgb(50, 158, 50); 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    border: solid black;
+}
+    
+.contenedor_form{
+    width: 40%; 
+    margin-top: 30px; 
+    background-color: #81f576; 
+    padding: 10px; 
+    border-radius: 25px; 
+    border: solid black;
+}
+
+.form-label{
+    color: rgb(14, 141, 14); 
+    font-size: larger; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#comentarios {
+    width: 35%;
+    margin: 20px auto;
+}
+
+.card {
+    background-color: #7de085;
+    border-radius: 15px;
+    box-shadow: 10px 10px rgba(26, 25, 25, 0.774);
+    margin-bottom: 20px;
+}
+
+.card-title{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-subtitle{
+    margin-bottom: 15px;
+    color: rgb(61, 61, 61);
+}
+
+/*Para telefonos*/
+@media (max-width: 768px){
+    .titulo{
+        width: 80%;
+    }
+    .contenedor_form{
+        width: 70%;
+    }
+    #comentarios{
+        width: 50%;
+    }
+}
