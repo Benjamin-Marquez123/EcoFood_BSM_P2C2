@@ -15,6 +15,12 @@ document.addEventListener('DOMContentLoaded', function() {
         const correo = document.getElementById('correo').value.trim();
         const comentario = document.getElementById('comentario').value.trim();
 
+        // Validar que los campos no estén vacíos
+        if (!nombre || !correo || !comentario) {
+            alert('Por favor, completa todos los campos antes de enviar tu comentario.');
+            return; // Sale de la función si hay un campo vacío
+        };
+
         // Se crea el comentario en formato "card" 
         const nuevoComentario = document.createElement('div');
         nuevoComentario.classList.add('card');
