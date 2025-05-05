@@ -79,3 +79,38 @@ a{
 a:hover{
     text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+    .login-contenedor {
+        width: 350px; /* Aumentado de 300px a 350px */
+        height: auto; 
+        padding: 20px;
+    }
+
+    button {
+        width: 350px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-size: cover;
+        padding: 20px;
+    }
+
+    .login-contenedor {
+        width: 100%; 
+        max-width: 350px; 
+        height: auto;
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+    button {
+        width: 100%; 
+    }
+
+    .input-group input {
+        width: 100%;
+    }
+}

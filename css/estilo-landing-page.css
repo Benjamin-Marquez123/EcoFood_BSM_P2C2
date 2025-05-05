@@ -59,3 +59,19 @@
 nav ul li a{
     color: green;
 }
+
+.frase{
+    background-color: #d1f0c3;
+    border-radius: 40px 40px 40px 40px; 
+    margin: 20px auto;
+    width: 90%;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.5rem;
+    color: #000000;
+    overflow: show ;
+}
+.frase img{ 
+    border-radius: 60%;
+    width: 70%;
+}
