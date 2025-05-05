@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+
+    background-color: #e4eba7;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    background-color: #333;
+    align-items: center;
+}
+li {
+    display: inline;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 26px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.bienvenida{
+    background-color: #B8E6A2;
+    border-radius: 50px 50px 50px 50px; 
+    width: 30%;
+    margin: 20px auto;
+    padding: 15px 5px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #000000;
+    overflow: show ;
+}
+.bienvenida img{ 
+    border-radius: 60%;
+    width: 70%;
+}
+
+.sabiasque{
+    background-color: #5bf7a9;
+    color: #000;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: left;
+    font-size: 25px;
+    line-height: 1.8;
+    width: 90%; 
+    margin: 20px auto;
+    box-sizing: border-box;
+    position: relative;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        height: 90%;
+        min-height: 100vh; /* Asegura que el cuerpo ocupe al menos la altura de la ventana */
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul {
+        flex-direction: column; /* Cambia la dirección de los elementos del menú a columna */
+        align-items: flex-start;
+    }
+
+    li a {
+        padding: 15px 10px; /* Reduce el padding para que se ajuste mejor a pantallas pequeñas */
+        font-size: 20px;
+    }
+
+    .bienvenida {
+        width: 90%; /* Ajusta el ancho para que ocupe más espacio en pantallas pequeñas */
+        font-size: 1.3rem;
+        padding: 5%;
+    }
+
+    .sabiasque {
+        width: 90%; /* Ajusta el ancho para pantallas pequeñas */
+        font-size: 24px; /* Ajusta el tamaño de fuente para pantallas pequeñas */
+        padding: 15%;
+        margin-bottom: 0;
+    }
+}
