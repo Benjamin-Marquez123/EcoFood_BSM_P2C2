@@ -100,7 +100,8 @@ li a {
     }
 
     .contenedor-tarjetas {
-        gap: 15px;
+        gap: 15px; 
+    }
 }
 
 
@@ -108,7 +109,7 @@ li a {
 .contenedor-tarjetas {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; 
+    justify-content: center; /* Centra las tarjetas horizontalmente */
     gap: 20px; 
     padding: 25px;
     box-sizing: border-box;
