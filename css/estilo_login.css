@@ -10,6 +10,53 @@ body {
     align-items: center;
     }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    background-color: #333;
+    align-items: center;
+    }
+li {
+    display: inline;
+}
+    
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 26px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+#header {
+    position: fixed;        
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;          
+}
+    
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #333;
+    justify-content: center; /* Centra horizontalmente los elementos */
+}
+    
+ul.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 26px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
 .login-contenedor{
     background-color: #E7E7D7;
     border-radius: 10px;
@@ -114,3 +161,5 @@ a:hover{
         width: 100%;
     }
 }
+
+
