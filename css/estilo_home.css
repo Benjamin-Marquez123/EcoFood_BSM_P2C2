@@ -67,51 +67,50 @@ li a {
     body {
         font-size: 14px;
         height: 90%;
-        min-height: 100vh; /* Asegura que el cuerpo ocupe al menos la altura de la ventana */
+        min-height: 100vh;
         display: flex;
         flex-direction: column;
     }
 
     ul {
-        flex-direction: column; /* Cambia la dirección de los elementos del menú a columna */
+        flex-direction: column;
         align-items: flex-start;
     }
 
     li a {
-        padding: 15px 10px; /* Reduce el padding para que se ajuste mejor a pantallas pequeñas */
+        padding: 15px 10px;
         font-size: 20px;
     }
 
     .bienvenida {
-        width: 90%; /* Ajusta el ancho para que ocupe más espacio en pantallas pequeñas */
+        width: 90%;
         font-size: 1.3rem;
         padding: 5%;
     }
 
     .sabiasque {
-        width: 90%; /* Ajusta el ancho para pantallas pequeñas */
-        font-size: 24px; /* Ajusta el tamaño de fuente para pantallas pequeñas */
+        width: 90%; 
+        font-size: 24px; 
         padding: 15%;
         margin-bottom: 0;
     }
     .tarjeta {
-        flex: 1 1 calc(100% - 20px); /* Ocupa todo el ancho en pantallas pequeñas */
+        flex: 1 1 calc(100% - 20px);
         max-width: calc(100% - 20px);
     }
 
     .contenedor-tarjetas {
-        gap: 15px; /* Reduce el espacio entre tarjetas en pantallas pequeñas */
-    }
+        gap: 15px;
 }
 
 
 /* Contenedor de tarjetas */
 .contenedor-tarjetas {
     display: flex;
-    flex-wrap: wrap; /* Permite que las tarjetas se ajusten en varias filas */
-    justify-content: center; /* Centra las tarjetas horizontalmente */
-    gap: 20px; /* Espacio entre las tarjetas */
-    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px; 
+    padding: 25px;
     box-sizing: border-box;
 }
 
@@ -125,44 +124,40 @@ li a {
     padding: 20px;
     text-align: center;      
     box-sizing: border-box;
+
+
 }
 
 /* Imagen dentro de la tarjeta */
 .tarjeta img {
-    width: 100%;
-    height: auto;
+    width: 90%;
+    height: 80%;
     border-radius: 8px;
-    margin-bottom: 10px;
+    margin-inline: auto;
+    padding: 5px;
+    margin-top: 10px;
 }
 
-/* Título de la tarjeta */
-.tarjeta h2 {
-    font-size: 1.4rem;
-    margin-bottom: 0.5rem;
-    color: #000000;
-    text-align: center;
-}
+
 
 /* Texto dentro de la tarjeta */
 .tarjeta p {
-    font-size: 1rem;
+    font-size: 130%;
     color: #000000;
     text-align: center;
-    
+
 }
 
 /* Botón dentro de la tarjeta */
 .tarjeta button {
-    background-color: #cef0cf; /* Verde */
-    border: none;
+    background-color: #cef0cf;
     color: rgb(70, 6, 6);
-    padding: 10px 20px;
+    padding: 8px 16px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
     font-size: 16px;
-    margin-top: 10px;
     cursor: pointer;
     border-radius: 5px;
+
+
 }
 
